@@ -11,8 +11,8 @@
 
 GM.addStyle(":root{--navy: 0, 26, 0!important}"); //background color
 GM.addStyle(":root{--accent: 0, 153, 51!important}"); //highlights and notifications
-GM.addStyle(":root{--white: 238, 250, 239!important}"); //post body color
-GM.addStyle(":root{--white-on-dark: 238, 250, 239!important}"); //dashboard tabs, tumblr logo, other icons
+GM.addStyle(":root{--white: 248, 253, 243!important}"); //post body color
+GM.addStyle(":root{--white-on-dark: 230, 242, 255!important}"); //dashboard tabs, tumblr logo, other icons
 GM.addStyle(":root{--black: 29, 10, 51!important}"); //text color
 
 // There are also variables for the colors of the post types at the top of the dash.
