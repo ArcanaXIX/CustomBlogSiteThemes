@@ -1,0 +1,15 @@
+// ==UserScript==
+// @name Tumblr Custom Palette
+// @include https://www.tumblr.com/*
+// @match https://www.tumblr.com/*
+// @grant GM.addStyle
+// ==/UserScript==
+
+// Replace the values with any RGB value you like to create a custom palette on Tumblr. Default is a green one cuz yolo.
+// example: replace 0, 26, 0 in line 12 with 0, 0, 0 to make the background color black.
+// I recommend the w3schools HTML Color Picker to play with color palettes: https://www.w3schools.com/colors/colors_picker.asp
+
+GM.addStyle(":root{--navy: 0, 26, 0!important}"); //background color
+GM.addStyle(":root{--accent: 0, 153, 51!important}"); //highlights and notifications
+GM.addStyle(":root{--white: 238, 250, 239!important}"); //post body color
+GM.addStyle(":root{--black: 29, 10, 51!important}"); //text color
