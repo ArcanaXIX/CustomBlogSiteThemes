@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name Tumblr background color
+// @name Tumblr Custom Palette With Background Image
 // @include https://www.tumblr.com/*
 // @match https://www.tumblr.com/*
 // @grant GM.addStyle
@@ -12,12 +12,12 @@
 // You can upload any image you'd like as a background image to postimages: https://postimages.org/
 
 GM.addStyle(":root{--navy: !important}"); //LEAVE THIS - no color means you can see the background image now
-GM.addStyle(":root{--accent: 0, 153, 51!important}"); //highlights and notifications
-GM.addStyle(":root{--white: 238, 250, 239!important}"); //post body color
-GM.addStyle(":root{--white-on-dark: 238, 250, 239!important}"); //dashboard tabs, tumblr logo, other icons
-GM.addStyle(":root{--black: 29, 10, 51!important}"); //text color
+GM.addStyle(":root{--accent: 255, 243, 18!important}"); //highlights and notifications
+GM.addStyle(":root{--white: 8, 33, 7!important}"); //post body color
+GM.addStyle(":root{--white-on-dark: 0, 230, 0!important}"); //dashboard tabs, tumblr logo, other icons
+GM.addStyle(":root{--black: 255, 255, 230!important}"); //text color
 
-GM.addStyle("body { background-image:url('https://i.postimg.cc/g2p9NsNN/kokiriemerald.jpg')!important}"); //background image - upload your own to postimages and replace the URL in quotes here
+GM.addStyle("body { background-image:url('https://i.postimg.cc/K8HGRp6q/foresttemple.png')!important}"); //background image - upload your own to postimages and replace the URL in quotes here
 
 // There are also variables for the colors of the post types at the top of the dash.
 // I didn't bother including those but if you want, they are red, orange, yellow, green, blue, purple, pink.
