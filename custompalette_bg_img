@@ -7,7 +7,7 @@
 
 // Replace the values with any RGB value you like to create a custom palette on Tumblr.
 // LEAVE THE NAVY BLANK! Overriding "navy" with a blank value means you can see a background image underneath it.
-// example: replace 0, 26, 0 in line 12 with 0, 0, 0 to make the background color black.
+// example: replace 8, 33, 7 in line 16 with 0, 0, 0 to make the post body color black.
 // I recommend the w3schools HTML Color Picker to play with color palettes: https://www.w3schools.com/colors/colors_picker.asp
 // You can upload any image you'd like as a background image to postimages: https://postimages.org/
 
